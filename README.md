@@ -14,23 +14,30 @@ através destas informações é feita uma requisição à API do GOOGLE MAPS pa
 é feito o calculo de quanto é o gasto em combustível nessa viagem.
 
 ## API Endpoint
-
 ```markdown
 GET /distance/{origem}/{destino}/{autonomia}/{precoGasolina}
 ```
-Exemplo de uso:
+## Link para testar a API
 ```markdown
-GET /distance/Recife,PE/Sao+Paulo,PE/12/5.8
+https://calculoconsumocombustivel.onrender.com/
+```
+Exemplos de uso:
+```markdown
+https://calculoconsumocombustivel.onrender.com/distance/Rua+das+Pedras,Buzios,RJ/Avenida+Boa+Vista,Recife,PE/12/5
+```
+## 
+```markdown
+https://calculoconsumocombustivel.onrender.com/distance/Recife,PE/Sao+Paulo,PE/12/5.8
 ```
 Resposta aguardada:
 ```json
 {
-    "origem": "Carpina,PE",
-    "destino": "Recife,PE",
-    "distancia": 57.027,
-    "kmPorLitro": 12.0,
-    "precodoLitro": 5.8,
-    "valorDaViagem": 27.56305
+  "origem": "Recife,PE",
+  "destino": "Sao+Paulo,PE",
+  "distancia": 2644.853,
+  "kmPorLitro": 12,
+  "precodoLitro": 5.8,
+  "valorDaViagem": 1278.3456166666665
 }
 ```
 
