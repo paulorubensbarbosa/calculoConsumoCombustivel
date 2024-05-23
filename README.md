@@ -27,17 +27,17 @@ https://calculoconsumocombustivel.onrender.com/distance/Rua+das+Pedras,Buzios,RJ
 ```
 ## 
 ```markdown
-https://calculoconsumocombustivel.onrender.com/distance/Recife,PE/Sao+Paulo,PE/12/5.8
+https://calculoconsumocombustivel.onrender.com/distance/Recife,PE/Sao+Paulo,SP/12/5.8
 ```
 Resposta aguardada:
 ```json
 {
   "origem": "Recife,PE",
-  "destino": "Sao+Paulo,PE",
+  "destino": "Sao+Paulo,SP",
   "distancia": 2644.853,
   "kmPorLitro": 12,
   "precodoLitro": 5.8,
-  "valorDaViagem": 1278.3456166666665
+  "valorDaViagem": 1278.34
 }
 ```
 
